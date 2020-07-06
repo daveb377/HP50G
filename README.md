@@ -25,3 +25,14 @@ text file resides in the root directory of the SD Card.
 
 PEQUM is located here http://www.hpcalc.org/details.php?id=6306 , and is
 a pretty handy equation library routine.
+
+In practice, I recall this text file from the SD Card to the stack, and
+then run UZ on it, to translate it to a directory. I can then "EVAL"
+this, and the object on the stack will purge the old 'EQUATION'
+directory and store the new one into the same one. Below is the program
+that I use (from the home directory) to pull EQ02.txt and a Notes file.
+The Notes File is a simple text file that I display using VV, which is
+the text display part from ( http://www.hpcalc.org/details.php?id=7213).
+When I update either text file on the SD card, I run this utility, which
+I've named rclSD, to pull from the SD card and install on the
+calculator.
